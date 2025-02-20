@@ -31,5 +31,6 @@ jobs:
     - name: Compile Java
       run: |
         javac -d . *.java
+        java main
       # Compile java file from directory
 
